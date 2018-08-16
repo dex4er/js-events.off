@@ -1,7 +1,7 @@
 {
   "name": "events.off",
   "version": "1.0.0",
-  "description": "Polyfill/shim for events.off in node versions < v10",
+  "description": "Polyfill/shim for events.EventEmitter.prototype.off in node versions < v10",
   "main": "index.js",
   "repository": {
     "type": "git",

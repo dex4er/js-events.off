@@ -4,13 +4,13 @@
 [![Build Status](https://secure.travis-ci.org/dex4er/js-events.off.svg)](http://travis-ci.org/dex4er/js-events.off) [![npm](https://img.shields.io/npm/v/events.off.svg)](https://www.npmjs.com/package/events.off)
 <!-- markdownlint-enable MD013 -->
 
-Polyfill for events.off in node versions &lt; v10
+Polyfill for events.EventEmitter.prototype.off in node versions &lt; v10
 
-node v10.0.0 added support for a built-in `events.off`:
+node v10.0.0 added support for a built-in `events.EventEmitter.prototype.off`:
 <https://github.com/nodejs/node/pull/17156>
 
-This package provides the built-in `events.off` in node v10.0.0 and later,
-and a replacement in other environments.
+This package provides the built-in `events.EventEmitter.prototype.off` in node
+v10.0.0 and later, and a replacement in other environments.
 
 This package implements the [es-shim API](https://github.com/es-shims/api)
 interface. It works in an ES3-supported environment and complies with the
