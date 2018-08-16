@@ -6,7 +6,6 @@ var polyfill = getPolyfill();
 var shim = require('./shim');
 
 var define = require('define-properties');
-var eventsModule = require('events');
 
 var slice = Array.prototype.slice;
 
