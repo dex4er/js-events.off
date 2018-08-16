@@ -21,7 +21,7 @@ interface. It works in an ES3-supported environment and complies with the
 ### Direct
 
 ```js
-const off = require('.');
+const off = require('events.off');
 // Use `off` just like the built-in method on `events.EventEmitter.prototype`
 const events = require('events');
 const emitter = new events.EventEmitter();
